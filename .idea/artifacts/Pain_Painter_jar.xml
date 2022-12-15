@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Pain Painter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Pain_Painter_jar</output-path>
+    <root id="archive" name="Pain Painter.jar">
+      <element id="module-output" name="Pain Painter" />
+    </root>
+  </artifact>
+</component>

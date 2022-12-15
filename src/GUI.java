@@ -22,7 +22,6 @@ public class GUI extends JFrame {
 
     public GUI(){
         super();
-        setResizable(false); // TODO: If images get extendable. Making the window resizable starts making sense.
         setLayout(new BorderLayout());
         Container content = getContentPane();
 
@@ -129,7 +128,8 @@ public class GUI extends JFrame {
         //list panel is invisble until user pushes a button
         listPanel.setVisible(false);
 
-        setBounds(0,0,1000,600);
+        setResizable(false); // TODO: If images get extendable. Making the window resizable starts making sense.
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
@@ -154,8 +154,8 @@ class MyCellRenderer extends JLabel implements ListCellRenderer<Object> {
         if(value instanceof File) {
             try {
                 Image img = (new ImageIcon(ImageIO.read((File)value))).getImage();
-                Image newimg = img.getScaledInstance(50, 50,  java.awt.Image.SCALE_SMOOTH);
-                setIcon(new ImageIcon(newimg));
+                Image newImg = img.getScaledInstance(50, 50,  java.awt.Image.SCALE_SMOOTH);
+                setIcon(new ImageIcon(newImg));
             } catch (IOException e) {
                 e.printStackTrace();
             }

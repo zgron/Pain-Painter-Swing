@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Pain Painter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b5dc0b-4208-4ec8-9b4e-f1b7985499c7" name="Default" comment="" />
+    <list default="true" id="a0b5dc0b-4208-4ec8-9b4e-f1b7985499c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Pain_Painter_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pixel World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pain Painter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/GUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageForce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageGlobalForce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageLimbObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImagePhysics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageWorld$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/InputHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/MyCellRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$10$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/UnsortedArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/UnsortedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/imagetools/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/vecmath/Mat2f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/vecmath/Vec2f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +92,18 @@
   <component name="ProjectId" id="1SDLfVjB01eYopZQwXkS0lp2wU4" />
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="pain-painter" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pain-Painter-GDX" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/raggeBG2.png" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -70,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Pain Painter.jar">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -183,7 +239,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Pixel World" />
+      <module name="Pain Painter" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,52 +258,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Pixel World" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Pixel World" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Pain Painter.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -269,6 +282,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.Pain Painter.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
