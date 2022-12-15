@@ -7,51 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b5dc0b-4208-4ec8-9b4e-f1b7985499c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Pain_Painter_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pixel World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pain Painter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/GUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageForce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageGlobalForce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageLimbObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImagePhysics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageWorld$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ImageWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/InputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/MyCellRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$10$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$8$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$9$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/ToolField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/UnsortedArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/UnsortedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/imagetools/Timer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/vecmath/Mat2f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pixel World/vecmath/Vec2f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/raggeBG2.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
