@@ -10,5 +10,8 @@ Regardless, I find this as fun simple showcase java project.
 The project was coded in intellij.
 
 
+
 TO RUN IT:
 There is a runnable jar file under out/artifacts/Pain_Painter_jar/Pain Painter.jar
+
+PS: There is no guarantee that later java versions will work. Java 11 should work.

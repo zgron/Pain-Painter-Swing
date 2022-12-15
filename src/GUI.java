@@ -129,7 +129,7 @@ public class GUI extends JFrame {
         listPanel.setVisible(false);
 
         setResizable(false); // TODO: If images get extendable. Making the window resizable starts making sense.
-
+        setBounds(0,0,820,600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
