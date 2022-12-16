@@ -1,10 +1,16 @@
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.image.BufferedImage;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.stream.Stream;
 
 /**
  * Created by noahtell on 15-05-12.
@@ -15,12 +21,12 @@ public class GUI extends JFrame {
     private ToolField toolField;
     private InputHandler inputHandler;
     private JScrollPane scrollPane;
-    private JList<File> list;
+    private JList<BufferedImage> list;
     private JLayeredPane layeredPane;
     private JCheckBox stuckCheckBox;
     public JPanel listPanel;
 
-    public GUI(){
+    public GUI() throws IOException, URISyntaxException {
         super();
         setLayout(new BorderLayout());
         Container content = getContentPane();
@@ -42,11 +48,17 @@ public class GUI extends JFrame {
         listPanel = new JPanel(new BorderLayout());
         layeredPane.add(listPanel, BorderLayout.EAST, 1);
 
-        //list of imageObjects
-        File[] listImageFiles = new File("resources/images").listFiles();
+        //list of imageObjects in images folder.
+
+        String[] imagePaths = Utils.listFilesInFolder("images");
+        BufferedImage[] images = new BufferedImage[imagePaths.length];
+        for (int k = 0; k < imagePaths.length; k++ ) {
+            images[k] = ImageIO.read(Utils.class.getResourceAsStream(imagePaths[k]));
+        }
+
 
         //Jlist
-        list = new JList<File>(listImageFiles);
+        list = new JList<BufferedImage>(images);
 
         // Functionality for handling image adding.
         MouseAdapter ma = new MouseAdapter() {
@@ -63,7 +75,7 @@ public class GUI extends JFrame {
                     int mouseInWorldy = e.getY() - world.getY() + list.getY() + listPanel.getY();
                     int index = list.locationToIndex(e.getPoint());
                     try {
-                        world.setImageObjectDropTarget(new ImageObject((File) list.getModel().getElementAt(index)));
+                        world.setImageObjectDropTarget(new ImageObject(list.getModel().getElementAt(index)));
 
                         world.getImageObjectDropTarget().setPosition(world.xScreenToWorld(mouseInWorldx) - (int) (world.getImageObjectDropTarget().getImageCenter().x), world.yScreenToWorld(mouseInWorldy) - (int) (world.getImageObjectDropTarget().getImageCenter().y));
                     } catch (IOException e1) {
@@ -151,14 +163,10 @@ class MyCellRenderer extends JLabel implements ListCellRenderer<Object> {
     {
         //JLabel l = (JLabel) super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
         //this.setText(((ImageObject) value).get);
-        if(value instanceof File) {
-            try {
-                Image img = (new ImageIcon(ImageIO.read((File)value))).getImage();
-                Image newImg = img.getScaledInstance(50, 50,  java.awt.Image.SCALE_SMOOTH);
-                setIcon(new ImageIcon(newImg));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        if(value instanceof BufferedImage) {
+            Image img = (new ImageIcon((BufferedImage)value)).getImage();
+            Image newImg = img.getScaledInstance(50, 50,  java.awt.Image.SCALE_SMOOTH);
+            setIcon(new ImageIcon(newImg));
         }
 
 

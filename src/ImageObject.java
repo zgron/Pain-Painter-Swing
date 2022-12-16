@@ -54,20 +54,19 @@ public class ImageObject implements UnsortedObject{
     public ImageObject(int width, int height, boolean stuck) {
         this.stuck = stuck;
     }
-    public ImageObject(File img) throws IOException /*okey you got a totally retarded object pls don't use it.*/ {
+    public ImageObject(BufferedImage img) throws IOException /*okey you got a totally retarded object pls don't use it.*/ {
         stuck = false;
-        BufferedImage in = ImageIO.read(img);
-        image = ImagePhysics.trimImage(new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_ARGB));
+        image = ImagePhysics.trimImage(new BufferedImage(img.getWidth(), img.getHeight(), BufferedImage.TYPE_INT_ARGB));
 
         Graphics2D g = image.createGraphics();
-        g.drawImage(in, 0, 0, null);
+        g.drawImage(img, 0, 0, null);
         g.dispose();
 
         position = new Vec2f();
         velocity = new Vec2f();
         calcCenterAndMass();
     }
-    public ImageObject(File img, boolean stuck) throws IOException{
+    public ImageObject(BufferedImage img, boolean stuck) throws IOException{
         this(img);
         this.stuck = stuck;
     }

@@ -1,5 +1,6 @@
 import vecmath.Vec2f;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -18,7 +19,7 @@ public class Hero extends ImageObject {
     float walkUpAngle = (float)Math.PI/4;
 
     public Hero() throws IOException {
-        super(new File("resources/images/fatty.png"));
+        super(ImageIO.read(Hero.class.getResourceAsStream("images/fatty.png")));
     }
 
     @Override
