@@ -18,7 +18,7 @@ public class Hero extends ImageObject {
     float walkUpAngle = (float)Math.PI/4;
 
     public Hero() throws IOException {
-        super(new File("images/fatty.png"));
+        super(new File("resources/images/fatty.png"));
     }
 
     @Override

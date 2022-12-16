@@ -43,7 +43,7 @@ public class GUI extends JFrame {
         layeredPane.add(listPanel, BorderLayout.EAST, 1);
 
         //list of imageObjects
-        File[] listImageFiles = new File("images").listFiles();
+        File[] listImageFiles = new File("resources/images").listFiles();
 
         //Jlist
         list = new JList<File>(listImageFiles);

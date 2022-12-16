@@ -71,9 +71,9 @@ public class ImageWorld extends JComponent implements Runnable, MouseWheelListen
 
         backgroundImages = new Image[3];
         try {
-            backgroundImages[0] = ImageIO.read(new File("raggeBG0.png"));
-            backgroundImages[1] = ImageIO.read(new File("raggeBG1.png"));
-            backgroundImages[2] = ImageIO.read(new File("raggeBG2.png"));
+            backgroundImages[0] = ImageIO.read(new File("resources/raggeBG0.png"));
+            backgroundImages[1] = ImageIO.read(new File("resources/raggeBG1.png"));
+            backgroundImages[2] = ImageIO.read(new File("resources/raggeBG2.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -103,7 +103,7 @@ public class ImageWorld extends JComponent implements Runnable, MouseWheelListen
         }
         // Create landscape.
         try {
-            landscape = new ImageObject(new File("images/landskap.png"),true);
+            landscape = new ImageObject(new File("resources/images/landskap.png"),true);
             addImage(landscape);
         } catch (IOException e) {
             e.printStackTrace();

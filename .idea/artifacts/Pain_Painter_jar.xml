@@ -3,10 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Pain_Painter_jar</output-path>
     <root id="archive" name="Pain Painter.jar">
       <element id="module-output" name="Pain Painter" />
-      <element id="file-copy" path="$PROJECT_DIR$/raggeBG0.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/raggeBG1.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/raggeBG2.png" />
-      <element id="dir-copy" path="$PROJECT_DIR$/images" />
     </root>
   </artifact>
 </component>

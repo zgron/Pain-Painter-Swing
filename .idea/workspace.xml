@@ -7,10 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b5dc0b-4208-4ec8-9b4e-f1b7985499c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Pain_Painter_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Pain_Painter_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pain Painter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pain Painter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Namnlos.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/Namnlos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Untitled.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/Untitled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bro1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/bro1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fatty.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/fatty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/landskap.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/landskap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sten1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/sten1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/träd1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/träd1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/Namnlos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/bro1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/fatty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/landskap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/sten1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/images/träd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/raggeBG0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/raggeBG1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/raggeBG2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raggeBG0.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/raggeBG0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raggeBG1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/raggeBG1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raggeBG2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/raggeBG2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ImageWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageWorld.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +76,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Projects\Github\Pain-Painter-Swing\resources" />
       <recent name="C:\Users\Noah\Documents\GitHub\Pain-Painter" />
     </key>
   </component>
@@ -71,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JAR Application.Pain Painter.jar">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -224,8 +252,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.Pain Painter.jar" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
