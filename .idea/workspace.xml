@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b5dc0b-4208-4ec8-9b4e-f1b7985499c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Pain_Painter_jar/Pain Painter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/GUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/ImageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/ImageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/ImageWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/ImageWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pain Painter/MyCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pain Painter/MyCellRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
